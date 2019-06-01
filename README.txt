@@ -1,4 +1,7 @@
-On the Raspberry Pi, you have the best game experience if you start the game with closed x-server.
-If the x-server is running, you will have a too low fps rate.
+Install python 2 or 3.
 
-Watch the help screen in the menu for everything else, just choose it by the arrows and hit enter.
+Run the commands:
+pip install pygame
+python start.py
+
+Use the arrow keys to navigate the menu, the Enter key to chose a menu entry.
