@@ -7,3 +7,8 @@ python start.py
 ```
 
 Use the arrow keys to navigate the menu, the Enter key to chose a menu entry.
+
+Made by:  
+Philip Molares https://github.com/DerUser  
+Torben Böhnke  
+Me
