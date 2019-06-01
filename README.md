@@ -1,4 +1,4 @@
-Install python 2 or 3.
+Install python 3.
 
 The use of venv or similar is recomended:
 
@@ -10,7 +10,7 @@ source bin/activate
 Run the commands:
 ```
 pip install -r requirements.txt
-python start.py
+./start.py
 ```
 
 Use the arrow keys to navigate the menu, the Enter key to chose a menu entry.
