@@ -15,7 +15,7 @@ class PowerUps(object):
         self.successound = successound
 
         self.types = { "multiplier" : Multiplier, "forwarder" : Forwarder, "superjump" : Superjump}
-        self.type_keys = self.types.keys()
+        self.type_keys = list(self.types)
         self.actives = []
 
         self.ratio = ratio

@@ -44,7 +44,7 @@ class Walls(object):
         for line in self.walls:
             if x < line[0] < x + object.width:
                 if line[1] <= object.y:
-                    if ceilingHeight < line[1] + line[2]:
+                    if ceilingHeight is None or ceilingHeight < line[1] + line[2]:
                         ceilingHeight = line[1] + line[2]
         return ceilingHeight
 
